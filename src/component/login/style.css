@@ -1,0 +1,94 @@
+.root{
+  display: flex;
+  justify-content: flex-end;
+}
+.RightDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  position: relative;
+  background: white;
+  height: 100vh;
+}
+.markname{
+  margin: 10px 0 0 10px;
+  color: #C90E08;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 36px;
+}
+.Right-Container{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  justify-content: space-around;
+}
+.Log-Top{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: #666666;
+}
+.Log-Input{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Login-Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0px 10px 0 #EEA1A1, 0 0px 10px 0 #EEA1A1;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background: #C90E08;
+  color: white;
+  font-family: initial;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.Log-Bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.email-content{
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.email-icon{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #C90E08;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 0 0px 5px 0 #EEA1A1, 0 0px 5px 0 #EEA1A1;
+}
+.email-input{
+  width: 300px;
+  border-radius: 0 12px 12px 0;
+  font-family: serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .RightDiv {
+    width: 100%;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+  }
+}

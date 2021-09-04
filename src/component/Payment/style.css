@@ -1,0 +1,229 @@
+/*
+.payment_root{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.payment_LeftDiv{
+    width: 45vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.payment_RightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.user-header-text{
+    width: 95vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.payment_markname{
+        margin: 10px 0 0 10px;
+        color: #C90E08;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 36px;
+}
+.payment_Right-Container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.payment_Log-Top{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #666666;
+}
+.payment_Log-Input{
+    margin-bottom: 30px;
+}
+.payment_Log-Input-Container{
+    margin-bottom: 4vh;
+}
+.payment_Login-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 0 #EEA1A1, 0 0px 10px 0 #EEA1A1;
+    text-align: center;
+    min-width: 250px;
+    height: 40px;
+    background: #C90E08;
+    color: white;
+    font-family: initial;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.payment_Log-Bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.payment_email-content{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.payment_email-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C90E08;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 0 0px 5px 0 #EEA1A1, 0 0px 5px 0 #EEA1A1;
+}
+.payment_email-input{
+    min-width: 400px;
+    border-radius: 12px;
+    font-family: serif;
+}
+.index-root{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.exriration-data-cvv-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.CVV-container{
+    border-radius: 10px;
+}
+*/
+
+.index-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stripe-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 40rem;
+}
+
+.payment-container {
+  margin-top: 8rem;
+  padding: 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+.amount-select {
+  margin-bottom: 2rem;
+  border: gray;
+  border-radius: 0.5rem;
+  outline: none;
+  box-shadow: rgb(174 174 174) 0px 0px 5px 0px;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.payment-container a {
+  text-align: center;
+}
+
+.payment-container label {
+  color: #6b7c93;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+.payment-container button {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background-color: #6772e5;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 10px;
+}
+
+.payment-container button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.payment-container input,
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.payment-container input::placeholder {
+  color: #aab7c4;
+}
+
+.payment-container input:focus,
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.IdealBankElement,
+.StripeElement.FpxBankElement,
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.StripeElement.PaymentRequestButton {
+  height: 40px;
+}

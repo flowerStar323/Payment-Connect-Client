@@ -1,0 +1,101 @@
+.profile_root{
+    display: flex;
+}
+.profile_LeftDiv{
+    width: 45vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.profile_RightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.user-header-text{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    font-weight: bold;
+    text-align: center;
+}
+.profile_markname{
+        margin: 10px 0 0 10px;
+        color: #C90E08;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 36px;
+}
+.profile_Right-Container{
+    background-color: white;
+    z-index: 1;
+    padding: 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile_Log-Top{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #666666;
+}
+.profile_Log-Input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile_Login-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 0 #EEA1A1, 0 0px 10px 0 #EEA1A1;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: #C90E08;
+    color: white;
+    font-family: initial;
+    border-radius: 12px;
+    font-size: 20px;
+
+}
+.profile_Log-Bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile_email-content{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.profile_email-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C90E08;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 0 0px 5px 0 #EEA1A1, 0 0px 5px 0 #EEA1A1;
+}
+.profile_email-input{
+    width: 400px;
+    border-radius: 0 12px 12px 0;
+    font-family: serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile_Right-Container {
+        width: 90%;
+    }
+}

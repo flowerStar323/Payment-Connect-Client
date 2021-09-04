@@ -1,0 +1,101 @@
+.re_LeftDiv{
+  width: 45vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.re_RightDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+		position: relative;
+  background: white;
+}
+.re_markname{
+		margin: 10px 0 0 10px;
+		color: #C90E08;
+		font-weight: bold;
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		font-size: 36px;
+}
+.re_Right-Container{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  justify-content: space-between;
+}
+.re_Log-Top{
+  font-size: 35px;
+  font-weight: bold;
+  color: #666666;
+}
+.re_Log-Input{
+}
+.re_Log-Input-Container{
+  margin-bottom: 20px;
+}
+.re_Login-Button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0px 10px 0 #EEA1A1, 0 0px 10px 0 #EEA1A1;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background: #C90E08;
+  color: white;
+  font-family: initial;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.re_Log-Bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.re_email-content{
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+.re_email-icon{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #C90E08;
+  border-radius: 12px 0 0 12px;
+  box-shadow: 0 0px 5px 0 #EEA1A1, 0 0px 5px 0 #EEA1A1;
+}
+.re_email-input{
+  width: 300px;
+  border-radius: 0 12px 12px 0;
+  font-family: serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .re_LeftDiv {
+    display: none;
+  }
+
+  .re_RightDiv {
+    width: 100vw;
+    position: absolute;
+    top: 20vh;
+    border-radius: 25px 25px 0 0;
+    height: 80vh;
+    overflow: hidden;
+  }
+
+  .re_Right-Container {
+    height: 100%;
+    padding-top: 10px;
+  }
+}

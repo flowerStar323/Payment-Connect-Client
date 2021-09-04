@@ -1,0 +1,108 @@
+.history_root{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.history_LeftDiv{
+    width: 45vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.history_RightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.user-header-text{
+    width: 95vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.history_markname{
+        margin: 10px 0 0 10px;
+        color: #C90E08;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-size: 36px;
+}
+.history_Right-Container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.history_Log-Top{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #666666;
+}
+.history_Log-Input{
+    margin-bottom: 30px;
+}
+.history_Log-Input-Container{
+    margin-bottom: 4vh;
+}
+.history_Login-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 0 #EEA1A1, 0 0px 10px 0 #EEA1A1;
+    text-align: center;
+    min-width: 250px;
+    height: 40px;
+    background: #C90E08;
+    color: white;
+    font-family: initial;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.history_Log-Bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.history_email-content{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.history_email-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C90E08;
+    border-radius: 12px 0 0 12px;
+    box-shadow: 0 0px 5px 0 #EEA1A1, 0 0px 5px 0 #EEA1A1;
+}
+.history_email-input{
+    min-width: 400px;
+    border-radius: 12px;
+    font-family: serif;
+}
+
+.exriration-data-cvv-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.CVV-container{
+    border-radius: 10px;
+}

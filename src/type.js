@@ -1,0 +1,8 @@
+export const LOGINSUCCESS = "LOGINSUCCESS";
+export const LOGOUT = "LOGOUT";
+export const TEAMNAME = "TEAMNAME";
+export const MATCHINFOR = "MATCHINFOR";
+export const ENTRYDATA = "ENTRYDATA";
+export const EACHENTRYDATA = "EACHENTRYDATA";
+export const GETLEADERBOARD = "GETLEADERBOARD";
+export const EACHCLEAR = "EACHCLEAR";
